@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="PwReportEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/lib/" source-path="/EarContent/lib"/>
+        <dependent-module archiveName="ERSClient.jar" deploy-path="/lib" handle="module:/resource/ERSClient/ERSClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="PwReport.war" deploy-path="/" handle="module:/resource/PwReport/PwReport">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="SensorsHomeGateway.jar" deploy-path="/lib" handle="module:/resource/SensorsHomeGateway/SensorsHomeGateway">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="MSClient.jar" deploy-path="/lib" handle="module:/resource/MSClient/MSClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
